@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Odinbook-react-app/static/css/main.bf33d55e.css",
-    "main.js": "/Odinbook-react-app/static/js/main.2e5a2fb2.js",
+    "main.js": "/Odinbook-react-app/static/js/main.eab4d339.js",
     "static/js/787.d69e3851.chunk.js": "/Odinbook-react-app/static/js/787.d69e3851.chunk.js",
     "static/media/User.png": "/Odinbook-react-app/static/media/User.7a4f4ca687caaabec1d5.png",
     "index.html": "/Odinbook-react-app/index.html",
     "main.bf33d55e.css.map": "/Odinbook-react-app/static/css/main.bf33d55e.css.map",
-    "main.2e5a2fb2.js.map": "/Odinbook-react-app/static/js/main.2e5a2fb2.js.map",
+    "main.eab4d339.js.map": "/Odinbook-react-app/static/js/main.eab4d339.js.map",
     "787.d69e3851.chunk.js.map": "/Odinbook-react-app/static/js/787.d69e3851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf33d55e.css",
-    "static/js/main.2e5a2fb2.js"
+    "static/js/main.eab4d339.js"
   ]
 }
