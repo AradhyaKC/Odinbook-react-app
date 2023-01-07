@@ -103,7 +103,7 @@ function SignInForm(props){
             }
             window.sessionStorage.setItem('user',JSON.stringify(response.user));
             setLoginState({errors:[]});
-            navigate('/Home');
+            navigate('/Odinbook-react-app/Home');
         }
     }
     const responseSuccessGoogle=async(response)=>{
@@ -130,7 +130,7 @@ function SignInForm(props){
         if(response.message=='success'){
             window.sessionStorage.setItem('user',JSON.stringify(response.user));
             setLoginState({errors:[]});
-            navigate('/Home');
+            navigate('/Odinbook-react-app/Home');
         }
     }
     

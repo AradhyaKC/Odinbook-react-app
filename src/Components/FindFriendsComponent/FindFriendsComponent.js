@@ -96,7 +96,7 @@ function FindFriendsComponent(props){
                     return <Card className="card" key={index}>
                         <CardContent>
                             <img className='card-img' src={config.EXPRESS_APP_BASE_URL+'/users/'+element._id+'/profileImage'}/>
-                            <Link to={{pathname:'/Profile/'+element._id}}>
+                            <Link to={{pathname:'/Odinbook-react-app/Profile/'+element._id}}>
                                 <Typography className="person-name" color='text.primary'>{element.first_name +' '+element.last_name}</Typography>
                             </Link>
                             <Typography className='at-addr' color="text.secondary">@{element.first_name} </Typography>

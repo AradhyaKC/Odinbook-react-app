@@ -7,6 +7,7 @@ import { ThemeProvider, createTheme,Button} from '@mui/material';
 import Profile from './Components/ProfileComponent/Profile.js';
 import Box from '@mui/material/Box';
 import HomeComponent from './Components/HomeComponent/HomeComponent';
+// import config from './config.json';
 
 function App() {
   
@@ -49,20 +50,18 @@ function App() {
   return (
     <div className="center">
       <ThemeProvider theme={state.theme=='default'?defaultTheme:darkTheme}>
-        <BrowserRouter>
           <Navbar setTheme={setTheme} toggleTheme={ToggleTheme}/>
           <Box sx={{height:'100%',width:'100%',flexGrow:'1',display:'flex',flexDirection:'column',
           backgroundColor:(state.theme=='dark'?'grey.900':'grey.200')}}>
             <div style={{height:'40px',}}> hello there</div>
           {/* position:'relative',transform:'translate(-50%,0%)',left:'50%'}}> */}
             <Routes>
-              <Route path='/' element={ <SignInForm/>}/>
-              <Route path='/LogIn' element={<SignInForm/>}/>
-              <Route path='/Profile/:personId' element={<Profile/>}/>
-              <Route path='/Home' element={<HomeComponent/>}/>
+              <Route path='/Odinbook-react-app/' element={ <SignInForm/>}/>
+              <Route path='/Odinbook-react-app/LogIn' element={<SignInForm/>}/>
+              <Route path='/Odinbook-react-app/Profile/:personId' element={<Profile/>}/>
+              <Route path='/Odinbook-react-app/Home' element={<HomeComponent/>}/>
             </Routes>
           </Box>
-        </BrowserRouter>
       </ThemeProvider>
     </div>
   );
