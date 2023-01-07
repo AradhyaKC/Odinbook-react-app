@@ -56,7 +56,7 @@ function App() {
             <div style={{height:'40px',}}> hello there</div>
           {/* position:'relative',transform:'translate(-50%,0%)',left:'50%'}}> */}
             <Routes>
-              <Route path='/' element={ <TempIndexComponent/>}/>
+              <Route path='/' element={ <SignInForm/>}/>
               <Route path='/LogIn' element={<SignInForm/>}/>
               <Route path='/Profile/:personId' element={<Profile/>}/>
               <Route path='/Home' element={<HomeComponent/>}/>
