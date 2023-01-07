@@ -1,0 +1,27 @@
+.form-input{
+    margin-top: 7px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-bottom: 7px;
+    border:1px solid grey;
+}
+
+.form-label{
+    margin-top: 7px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.form-button{
+    margin-top: 7px !important;
+    width: 100% !important;
+    text-align: center !important;
+    border-radius: 4px !important;
+    background-color:#247cf0;
+    color:white;
+    border: 0px solid black !important;
+    font-size: 1rem !important;
+}

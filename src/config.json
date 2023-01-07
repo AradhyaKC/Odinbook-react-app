@@ -1,0 +1,4 @@
+{
+    "EXPRESS_APP_BASE_URL":"http://localhost:3000",
+    "PROFILE_IMAGE_DIR":"http://localhost:3000/"
+}

@@ -1,0 +1,42 @@
+.card{
+    max-width: 200px;
+    min-width: 200px;
+}
+.card-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.person-name{
+    font-size:1.2rem;
+    font-weight:400;
+}
+.person-name:hover{
+    text-decoration: underline rgb(0, 0, 0);
+    cursor: pointer;
+}
+.description{
+    white-space: normal;
+}
+.at-addr{
+    font-size: 0.7rem;
+    display: none;
+}
+
+@media screen and (max-width:650px) {
+    .card-img{
+        width: 75px;
+    }
+    .persone-name{
+        font-size:1rem;
+    }
+    .card{
+        max-width: 135px;
+        min-width: 135px;
+    }
+    .description{
+        display: none;
+    }
+    .at-addr{
+        display: block;
+    }
+}

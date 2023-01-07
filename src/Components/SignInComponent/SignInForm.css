@@ -1,0 +1,49 @@
+@import url(../../styles/commonStyles.css);
+
+.flex-container{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.heading{
+    width: max(40%,300px);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.my-form{
+    width: max(40%,300px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px rgb(168, 168, 168);
+}
+
+/* .my-form>div{
+    text-align: center;
+    color: #247cf0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+} */
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
